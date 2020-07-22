@@ -11,6 +11,7 @@ float blinky_non_linearity(float frac);
 float clip(float x, float floor, float ceil);
 float mu_law(float d, float mu);
 float sigmoid(float d, float min, float max, float margin);
+float *angle_to_led(float theta);
 
 template<class T>
 T map_to_unit_interval(T val, T lo_val, T hi_val)
