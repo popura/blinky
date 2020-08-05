@@ -1,0 +1,117 @@
+In archive /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/Blinky/libBlinky.a:
+
+non_linear_mapping.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .literal._Z10lut_interpIfLj61EET_S0_St5arrayIS0_XT0_EE 00000010  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._Z20blinky_non_linearityf 0000000c  00000000  00000000  00000058  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000064  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000064  2**0
+                  ALLOC
+  6 .text._Z10lut_interpIfLj61EET_S0_St5arrayIS0_XT0_EE 00000045  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text._Z20blinky_non_linearityf 0000001d  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .data.lut     000000f4  00000000  00000000  000000cc  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+  9 .debug_frame  00000040  00000000  00000000  000001c0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 10 .debug_info   0000417f  00000000  00000000  00000200  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_abbrev 000005d5  00000000  00000000  0000437f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 12 .debug_loc    0000007f  00000000  00000000  00004954  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 13 .debug_aranges 00000028  00000000  00000000  000049d3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_ranges 00000018  00000000  00000000  000049fb  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_line   000006b8  00000000  00000000  00004a13  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_str    00005a82  00000000  00000000  000050cb  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 17 .comment      0000003c  00000000  00000000  0000ab4d  2**0
+                  CONTENTS, READONLY
+ 18 .xtensa.info  00000038  00000000  00000000  0000ab89  2**0
+                  CONTENTS, READONLY
+ 19 .xt.lit._Z10lut_interpIfLj61EET_S0_St5arrayIS0_XT0_EE 00000008  00000000  00000000  0000abc1  2**0
+                  CONTENTS, RELOC, READONLY
+ 20 .xt.lit       00000008  00000000  00000000  0000abc9  2**0
+                  CONTENTS, RELOC, READONLY
+ 21 .xt.prop._Z10lut_interpIfLj61EET_S0_St5arrayIS0_XT0_EE 00000030  00000000  00000000  0000abd1  2**0
+                  CONTENTS, RELOC, READONLY
+ 22 .xt.prop      0000003c  00000000  00000000  0000ac01  2**0
+                  CONTENTS, RELOC, READONLY
+
+functions.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._Z6mu_lawff 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal._Z7sigmoidffff 0000007c  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._Z12angle_to_ledfPf 00000068  00000000  00000000  000000d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .text         00000000  00000000  00000000  00000138  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  4 .data         00000000  00000000  00000000  00000138  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  5 .bss          00000000  00000000  00000000  00000138  2**0
+                  ALLOC
+  6 .text._Z4clipfff 00000022  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text._Z6mu_lawff 00000076  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text._Z7sigmoidffff 00000133  00000000  00000000  000001d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text._Z12angle_to_ledfPf 0000019c  00000000  00000000  00000308  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .bss._ZZ7sigmoidffffE5scale 00000004  00000000  00000000  000004a4  2**2
+                  ALLOC
+ 11 .bss._ZZ7sigmoidffffE3loc 00000004  00000000  00000000  000004a4  2**2
+                  ALLOC
+ 12 .bss._ZZ7sigmoidffffE3x_h 00000004  00000000  00000000  000004a4  2**2
+                  ALLOC
+ 13 .bss._ZZ6mu_lawffE1c 00000004  00000000  00000000  000004a4  2**2
+                  ALLOC
+ 14 .bss._ZGVZ7sigmoidffffE5scale 00000008  00000000  00000000  000004a8  2**3
+                  ALLOC
+ 15 .bss._ZGVZ7sigmoidffffE3loc 00000008  00000000  00000000  000004a8  2**3
+                  ALLOC
+ 16 .bss._ZGVZ7sigmoidffffE3x_h 00000008  00000000  00000000  000004a8  2**3
+                  ALLOC
+ 17 .bss._ZGVZ6mu_lawffE1c 00000008  00000000  00000000  000004a8  2**3
+                  ALLOC
+ 18 .debug_frame  00000070  00000000  00000000  000004a8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 19 .debug_info   00003e4a  00000000  00000000  00000518  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 20 .debug_abbrev 0000060e  00000000  00000000  00004362  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 21 .debug_loc    00000124  00000000  00000000  00004970  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 22 .debug_aranges 00000038  00000000  00000000  00004a94  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 23 .debug_ranges 00000028  00000000  00000000  00004acc  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_line   00000777  00000000  00000000  00004af4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_str    000056c7  00000000  00000000  0000526b  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .comment      0000003c  00000000  00000000  0000a932  2**0
+                  CONTENTS, READONLY
+ 27 .xtensa.info  00000038  00000000  00000000  0000a96e  2**0
+                  CONTENTS, READONLY
+ 28 .xt.lit       00000018  00000000  00000000  0000a9a6  2**0
+                  CONTENTS, RELOC, READONLY
+ 29 .xt.prop      000001c8  00000000  00000000  0000a9be  2**0
+                  CONTENTS, RELOC, READONLY

@@ -1,0 +1,94 @@
+In archive /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/EVXLEDController/libEVXLEDController.a:
+
+EVXLEDController.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000014  00000000  00000000  00000048  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .group        00000014  00000000  00000000  0000005c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  3 .group        00000014  00000000  00000000  00000070  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  4 .group        0000000c  00000000  00000000  00000084  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  5 .literal._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSB_PSt13_Rb_tree_nodeIS3_E 00000004  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_ 00000004  00000000  00000000  00000094  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_ 00000014  00000000  00000000  00000098  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESE_IJEEEEESt17_Rb_tree_iteratorIS3_ESt23_Rb_tree_const_iteratorIS3_EDpOT_ 00000010  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal._ZN16EVXLEDController10updateDutyEij 00000018  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal._ZN16EVXLEDControllerC2E16ledc_timer_bit_tjSt6vectorIiSaIiEE 00000020  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .text         00000000  00000000  00000000  000000f4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 12 .data         00000000  00000000  00000000  000000f4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 13 .bss          00000000  00000000  00000000  000000f4  2**0
+                  ALLOC
+ 14 .text._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSB_PSt13_Rb_tree_nodeIS3_E 00000038  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS3_ESC_RS1_ 0000001c  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_ 00000060  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_ 000000ed  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESE_IJEEEEESt17_Rb_tree_iteratorIS3_ESt23_Rb_tree_const_iteratorIS3_EDpOT_ 0000005a  00000000  00000000  00000298  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text._ZN16EVXLEDController10updateDutyEij 00000076  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .rodata.str1.4 00000049  00000000  00000000  0000036c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .text._ZN16EVXLEDControllerC2E16ledc_timer_bit_tjSt6vectorIiSaIiEE 000000b7  00000000  00000000  000003b8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .rodata._ZStL19piecewise_construct 00000001  00000000  00000000  00000470  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 23 .debug_frame  000000b8  00000000  00000000  00000474  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 24 .debug_info   0000856c  00000000  00000000  0000052c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 25 .debug_abbrev 0000095c  00000000  00000000  00008a98  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 26 .debug_loc    00000ba3  00000000  00000000  000093f4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 27 .debug_aranges 00000050  00000000  00000000  00009f97  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 28 .debug_ranges 00000040  00000000  00000000  00009fe7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 29 .debug_line   00000cf1  00000000  00000000  0000a027  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 30 .debug_str    0000bd87  00000000  00000000  0000ad18  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 31 .comment      0000003c  00000000  00000000  00016a9f  2**0
+                  CONTENTS, READONLY
+ 32 .xtensa.info  00000038  00000000  00000000  00016adb  2**0
+                  CONTENTS, READONLY
+ 33 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSB_PSt13_Rb_tree_nodeIS3_E 00000008  00000000  00000000  00016b13  2**0
+                  CONTENTS, RELOC, READONLY
+ 34 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_ 00000008  00000000  00000000  00016b1b  2**0
+                  CONTENTS, RELOC, READONLY
+ 35 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_ 00000008  00000000  00000000  00016b23  2**0
+                  CONTENTS, RELOC, READONLY
+ 36 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESE_IJEEEEESt17_Rb_tree_iteratorIS3_ESt23_Rb_tree_const_iteratorIS3_EDpOT_ 00000008  00000000  00000000  00016b2b  2**0
+                  CONTENTS, RELOC, READONLY
+ 37 .xt.lit       00000010  00000000  00000000  00016b33  2**0
+                  CONTENTS, RELOC, READONLY
+ 38 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSB_PSt13_Rb_tree_nodeIS3_E 00000078  00000000  00000000  00016b43  2**0
+                  CONTENTS, RELOC, READONLY
+ 39 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE24_M_get_insert_unique_posERS1_ 000000b4  00000000  00000000  00016bbb  2**0
+                  CONTENTS, RELOC, READONLY
+ 40 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS3_ERS1_ 00000150  00000000  00000000  00016c6f  2**0
+                  CONTENTS, RELOC, READONLY
+ 41 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESE_IJEEEEESt17_Rb_tree_iteratorIS3_ESt23_Rb_tree_const_iteratorIS3_EDpOT_ 00000048  00000000  00000000  00016dbf  2**0
+                  CONTENTS, RELOC, READONLY
+ 42 .xt.prop      000000e4  00000000  00000000  00016e07  2**0
+                  CONTENTS, RELOC, READONLY
+ 43 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKi21ledc_channel_config_tESt10_Select1stIS3_ESt4lessIiESaIS3_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS3_ESC_RS1_ 00000054  00000000  00000000  00016eeb  2**0
+                  CONTENTS, RELOC, READONLY

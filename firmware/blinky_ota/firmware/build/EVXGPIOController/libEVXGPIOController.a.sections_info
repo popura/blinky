@@ -1,0 +1,54 @@
+In archive /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/EVXGPIOController/libEVXGPIOController.a:
+
+EVXGPIOController.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000014  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .literal._ZN17EVXGPIOController8getStateEv 00000004  00000000  00000000  00000048  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal._ZNSt6vectorIiSaIiEEaSERKS1_ 00000020  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal._ZN17EVXGPIOControllerC2ESt6vectorIiSaIiEE 00000008  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .text         00000000  00000000  00000000  00000074  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  5 .data         00000000  00000000  00000000  00000074  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  6 .bss          00000000  00000000  00000000  00000074  2**0
+                  ALLOC
+  7 .text._ZN17EVXGPIOController8getStateEv 00000038  00000000  00000000  00000074  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .text._ZNSt6vectorIiSaIiEEaSERKS1_ 000000b2  00000000  00000000  000000ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text._ZN17EVXGPIOControllerC2ESt6vectorIiSaIiEE 0000006e  00000000  00000000  00000160  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .debug_frame  00000058  00000000  00000000  000001d0  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_info   000042d7  00000000  00000000  00000228  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_abbrev 00000661  00000000  00000000  000044ff  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    00000643  00000000  00000000  00004b60  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_aranges 00000030  00000000  00000000  000051a3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_ranges 00000050  00000000  00000000  000051d3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_line   000009d3  00000000  00000000  00005223  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_str    00004eed  00000000  00000000  00005bf6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .comment      0000003c  00000000  00000000  0000aae3  2**0
+                  CONTENTS, READONLY
+ 19 .xtensa.info  00000038  00000000  00000000  0000ab1f  2**0
+                  CONTENTS, READONLY
+ 20 .xt.lit       00000010  00000000  00000000  0000ab57  2**0
+                  CONTENTS, RELOC, READONLY
+ 21 .xt.lit._ZNSt6vectorIiSaIiEEaSERKS1_ 00000008  00000000  00000000  0000ab67  2**0
+                  CONTENTS, RELOC, READONLY
+ 22 .xt.prop      0000009c  00000000  00000000  0000ab6f  2**0
+                  CONTENTS, RELOC, READONLY
+ 23 .xt.prop._ZNSt6vectorIiSaIiEEaSERKS1_ 00000084  00000000  00000000  0000ac0b  2**0
+                  CONTENTS, RELOC, READONLY

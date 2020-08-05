@@ -12,6 +12,7 @@
 #include "ramp.h"
 #include "blinky_functions.h"
 #include "dip_switch.h"
+#include "doa.h"
 
 #include "config.h"
 
@@ -43,7 +44,8 @@ int current_led = LED_WHITE;
 DCRemoval dc_rm(DC_REMOVAL_ALPHA);
 
 // Distance between microphones [m]
-float D_MICS = 0.030
+float D_MICS = 0.030;
+float theta = 0;
 
 void main_process()
 {
@@ -288,60 +290,46 @@ void main_process()
               }
 
               timer->start();
+
+              float a[AUDIO_BUFFER_SIZE];
+              float b[AUDIO_BUFFER_SIZE];
+
               // Two channels processing
-              for (int n=0; n<2; n++) {
-
-                float filter_output = 0.;
-                for (int i = 0 ; i < AUDIO_BUFFER_SIZE ; i++) {
-                  // remove the mean using a notch filter
-                  float sample = dc_rm.process(audio_data[AUDIO_CHANNELS * i + n]);
-                  // square to compute the power and accumulate
-                  filter_output += sample * sample;
-                }
-                // divide to obtain mean power in the current buffer
-                filter_output /= AUDIO_BUFFER_SIZE;
-
-                // Apply the non-linear transformation
-                float val_db = decibels(filter_output);
-                float duty_f = map_to_unit_interval(val_db, MIN_DB, MAX_DB);
-                duty_f = blinky_non_linearity(duty_f);  // this will also clip in [0, 1]
-
-                // Detect if the signal is too large
-                if (n == 0)
-                {
-                  if (duty_f >= 1.)
-                    ledC->updateDuty(leds[LED_GREEN], 400);
-                  else
-                    ledC->updateDuty(leds[LED_GREEN], 0);
-                }
-                else if (n == 1)
-                {
-                  if (duty_f >= 1.)
-                    ledC->updateDuty(leds[LED_BLUE], 400);
-                  else
-                    ledC->updateDuty(leds[LED_BLUE], 0);
-                }
-
-                // Set the LED duty cycle
-                uint32_t duty = 0;
-                if (n == 0)
-                {
-                  duty = (uint32_t)(duty_f * duty_max[LED_RED]);
-                  ledC->updateDuty(LED_RED, duty);
-                }
-                else if (n == 1)
-                {
-                  duty = (uint32_t)(duty_f * duty_max[LED_WHITE]);
-                  ledC->updateDuty(LED_WHITE, duty);
-                }
-
-                if (ENABLE_MONITOR and counter % 50 == 0)
-                {
-                  printf("power_val=%e db=%d duty_f=%e duty=%d dip_val=%d\n",
-                      (double)filter_output, (int)val_db, (double)duty_f, (int)duty, (int)dip_switch.read());
-                }
-                counter += 1;
+              for (int i = 0 ; i < AUDIO_BUFFER_SIZE ; i++) {
+                // remove the mean using a notch filter
+                a[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 0]);
+                b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]);
               }
+              
+              //if (theta >= 360){
+              //  theta = 0;
+              //}
+              //theta++;
+              theta = doa_cross_corr(a, b, D_MICS, (float)SAMPLE_RATE);
+
+              float duty_f_array[4] = {0, 0, 0, 0};
+              //angle_to_led((float)theta*(2*M_PI)/360, duty_f_array);
+              angle_to_led(theta, duty_f_array);
+              
+              // Set the duty cycle of each LED
+              int led_indices[4] = {LED_RED, LED_WHITE, LED_BLUE, LED_GREEN};
+              for (int i = 0; i < 4; i++){
+                uint32_t duty = 0;
+                duty = (uint32_t)(duty_f_array[i] * duty_max[led_indices[i]]);
+                ledC->updateDuty(led_indices[i], duty);
+              }
+
+              if (ENABLE_MONITOR and counter % 50 == 0)
+              {
+                printf("theta=%d duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
+                    (int)theta,
+                    (double)duty_f_array[0],
+                    (double)duty_f_array[1],
+                    (double)duty_f_array[2],
+                    (double)duty_f_array[3],
+                    (int)dip_switch.read());
+              }
+              counter += 1;
 
               elapsed_time = timer->measure();
               if (elapsed_time > (float)AUDIO_BUFFER_SIZE/(float)SAMPLE_RATE*1000.0f)
@@ -354,6 +342,8 @@ void main_process()
               }
 
             }
+
+            vTaskDelay(10 / portTICK_PERIOD_MS);
             break;
         }
     }

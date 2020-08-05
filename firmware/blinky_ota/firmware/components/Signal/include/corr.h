@@ -8,7 +8,9 @@
 #ifndef __CORR_H__
 #define __CORR_H__
 
-float *cross_corr(float *a, float *b);
-float *auto_corr(float *a);
+#include <malloc.h>
+
+void cross_corr(float *a, float *b, float *f);
+void auto_corr(float *a, float *f);
 
 #endif // __CORR_H__

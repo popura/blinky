@@ -1,0 +1,702 @@
+In archive /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/main/libmain.a:
+
+otohikari.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000014  00000000  00000000  0000004c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .group        00000014  00000000  00000000  00000060  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  3 .group        00000014  00000000  00000000  00000074  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  4 .group        00000014  00000000  00000000  00000088  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  5 .group        00000014  00000000  00000000  0000009c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  6 .group        00000014  00000000  00000000  000000b0  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  7 .group        00000014  00000000  00000000  000000c4  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  8 .group        00000014  00000000  00000000  000000d8  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  9 .group        00000014  00000000  00000000  000000ec  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 10 .group        00000014  00000000  00000000  00000100  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 11 .group        0000000c  00000000  00000000  00000114  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 12 .literal._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000010  00000000  00000000  00000120  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal._Z8decibelsIfET_S0_ 00000008  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000004  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0000013c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000004  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000008  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000004  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000014  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000010  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal._Z12main_processv 00000210  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000008  00000000  00000000  00000388  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000004  00000000  00000000  00000390  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal._Z41__static_initialization_and_destruction_0ii 0000003c  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal._GLOBAL__sub_I_duty_max 00000008  00000000  00000000  000003d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal._GLOBAL__sub_D_duty_max 00000008  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text         00000000  00000000  00000000  000003e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .data         00000000  00000000  00000000  000003e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 29 .bss          00000000  00000000  00000000  000003e0  2**0
+                  ALLOC
+ 30 .text._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000058  00000000  00000000  000003e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text._Z8decibelsIfET_S0_ 0000001d  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000022  00000000  00000000  00000458  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000022  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000038  00000000  00000000  000004a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000052  00000000  00000000  000004d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_ESB_RS1_ 0000001c  00000000  00000000  0000052c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 0000005f  00000000  00000000  00000548  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 000000ed  00000000  00000000  000005a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 0000004e  00000000  00000000  00000698  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .rodata.str1.4 000000b2  00000000  00000000  000006e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .rodata       00000010  00000000  00000000  0000079c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 42 .text._Z12main_processv 00000b45  00000000  00000000  000007ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .rodata._Z12main_processv 00000020  00000000  00000000  000012f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 44 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 0000002e  00000000  00000000  00001314  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 0000001d  00000000  00000000  00001344  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text._Z41__static_initialization_and_destruction_0ii 0000008e  00000000  00000000  00001364  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text._GLOBAL__sub_I_duty_max 00000010  00000000  00000000  000013f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .ctors        00000004  00000000  00000000  00001404  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 49 .text._GLOBAL__sub_D_duty_max 00000010  00000000  00000000  00001408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .dtors        00000004  00000000  00000000  00001418  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 51 .rodata.$_279 00000010  00000000  00000000  0000141c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 52 .rodata.$_278 00000020  00000000  00000000  0000142c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 53 .bss.theta    00000004  00000000  00000000  0000144c  2**2
+                  ALLOC
+ 54 .data.D_MICS  00000004  00000000  00000000  0000144c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 55 .bss.dc_rm    0000000c  00000000  00000000  00001450  2**2
+                  ALLOC
+ 56 .data.current_led 00000004  00000000  00000000  00001450  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 57 .bss.counter  00000004  00000000  00000000  00001454  2**2
+                  ALLOC
+ 58 .bss.state_current 00000001  00000000  00000000  00001454  2**0
+                  ALLOC
+ 59 .bss._ZL4leds 0000000c  00000000  00000000  00001454  2**2
+                  ALLOC
+ 60 .bss.duty_max 00000018  00000000  00000000  00001454  2**2
+                  ALLOC
+ 61 .rodata._ZL8LED_BLUE 00000004  00000000  00000000  00001454  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 62 .rodata._ZL9LED_WHITE 00000004  00000000  00000000  00001458  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 63 .rodata._ZL7LED_RED 00000004  00000000  00000000  0000145c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 64 .rodata._ZStL19piecewise_construct 00000001  00000000  00000000  00001460  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 65 .debug_frame  00000190  00000000  00000000  00001464  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 66 .debug_info   000119f9  00000000  00000000  000015f4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 67 .debug_abbrev 00000b36  00000000  00000000  00012fed  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 68 .debug_loc    00001fd0  00000000  00000000  00013b23  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 69 .debug_aranges 00000098  00000000  00000000  00015af3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 70 .debug_ranges 00000088  00000000  00000000  00015b8b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 71 .debug_line   00001a8e  00000000  00000000  00015c13  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 72 .debug_str    00014d84  00000000  00000000  000176a1  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 73 .comment      0000003c  00000000  00000000  0002c425  2**0
+                  CONTENTS, READONLY
+ 74 .xtensa.info  00000038  00000000  00000000  0002c461  2**0
+                  CONTENTS, READONLY
+ 75 .xt.lit._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000008  00000000  00000000  0002c499  2**0
+                  CONTENTS, RELOC, READONLY
+ 76 .xt.lit._Z8decibelsIfET_S0_ 00000008  00000000  00000000  0002c4a1  2**0
+                  CONTENTS, RELOC, READONLY
+ 77 .xt.lit._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000008  00000000  00000000  0002c4a9  2**0
+                  CONTENTS, RELOC, READONLY
+ 78 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0002c4b1  2**0
+                  CONTENTS, RELOC, READONLY
+ 79 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0002c4b9  2**0
+                  CONTENTS, RELOC, READONLY
+ 80 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000008  00000000  00000000  0002c4c1  2**0
+                  CONTENTS, RELOC, READONLY
+ 81 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000008  00000000  00000000  0002c4c9  2**0
+                  CONTENTS, RELOC, READONLY
+ 82 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000008  00000000  00000000  0002c4d1  2**0
+                  CONTENTS, RELOC, READONLY
+ 83 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000008  00000000  00000000  0002c4d9  2**0
+                  CONTENTS, RELOC, READONLY
+ 84 .xt.lit       00000020  00000000  00000000  0002c4e1  2**0
+                  CONTENTS, RELOC, READONLY
+ 85 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000008  00000000  00000000  0002c501  2**0
+                  CONTENTS, RELOC, READONLY
+ 86 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000008  00000000  00000000  0002c509  2**0
+                  CONTENTS, RELOC, READONLY
+ 87 .xt.prop._ZNSt6vectorIiSaIiEEC5ERKS1_ 0000000c  00000000  00000000  0002c511  2**0
+                  CONTENTS, RELOC, READONLY
+ 88 .xt.prop._Z8decibelsIfET_S0_ 00000030  00000000  00000000  0002c51d  2**0
+                  CONTENTS, RELOC, READONLY
+ 89 .xt.prop._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000030  00000000  00000000  0002c54d  2**0
+                  CONTENTS, RELOC, READONLY
+ 90 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000048  00000000  00000000  0002c57d  2**0
+                  CONTENTS, RELOC, READONLY
+ 91 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000078  00000000  00000000  0002c5c5  2**0
+                  CONTENTS, RELOC, READONLY
+ 92 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000078  00000000  00000000  0002c63d  2**0
+                  CONTENTS, RELOC, READONLY
+ 93 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 000000b4  00000000  00000000  0002c6b5  2**0
+                  CONTENTS, RELOC, READONLY
+ 94 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000150  00000000  00000000  0002c769  2**0
+                  CONTENTS, RELOC, READONLY
+ 95 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000048  00000000  00000000  0002c8b9  2**0
+                  CONTENTS, RELOC, READONLY
+ 96 .xt.prop      00000630  00000000  00000000  0002c901  2**0
+                  CONTENTS, RELOC, READONLY
+ 97 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000048  00000000  00000000  0002cf31  2**0
+                  CONTENTS, RELOC, READONLY
+ 98 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000048  00000000  00000000  0002cf79  2**0
+                  CONTENTS, RELOC, READONLY
+ 99 .xt.prop._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000054  00000000  00000000  0002cfc1  2**0
+                  CONTENTS, RELOC, READONLY
+100 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_ESB_RS1_ 00000054  00000000  00000000  0002d015  2**0
+                  CONTENTS, RELOC, READONLY
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000014  00000000  00000000  0000004c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .group        00000014  00000000  00000000  00000060  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  3 .group        00000014  00000000  00000000  00000074  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  4 .group        00000014  00000000  00000000  00000088  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  5 .group        00000014  00000000  00000000  0000009c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  6 .group        00000014  00000000  00000000  000000b0  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  7 .group        00000014  00000000  00000000  000000c4  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  8 .group        00000014  00000000  00000000  000000d8  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  9 .group        00000014  00000000  00000000  000000ec  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 10 .group        00000014  00000000  00000000  00000100  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 11 .group        00000014  00000000  00000000  00000114  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 12 .group        0000000c  00000000  00000000  00000128  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 13 .literal._ZL25past_http_header_positionPci 00000004  00000000  00000000  00000134  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal._ZL21read_past_http_headerPcij 00000038  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal._ZL15initialise_wifiv 00000094  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal._ZL18http_header_is_404Pci 00000008  00000000  00000000  00000204  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal._ZL22connect_to_http_serverv 0000006c  00000000  00000000  0000020c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal._ZL24switch_to_blinky_processv 00000028  00000000  00000000  00000278  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal._ZL8ota_taskPv 000003f4  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal._ZL13event_handlerPvP14system_event_t 00000020  00000000  00000000  00000694  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal._ZL14wifi_connectedv 0000003c  00000000  00000000  000006b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal._ZL16server_connectedv 00000040  00000000  00000000  000006f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.app_main 00000010  00000000  00000000  00000730  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000010  00000000  00000000  00000740  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal._Z8decibelsIfET_S0_ 00000008  00000000  00000000  00000750  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000004  00000000  00000000  00000758  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal._ZNSt6vectorIiSaIiEE19_M_range_initializeIPKiEEvT_S5_St20forward_iterator_tag 00000010  00000000  00000000  0000075c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal._ZL16download_processv 00000030  00000000  00000000  0000076c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0000079c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000004  00000000  00000000  000007a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000008  00000000  00000000  000007a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000004  00000000  00000000  000007b0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000014  00000000  00000000  000007b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000010  00000000  00000000  000007c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .literal._Z12main_processv 00000210  00000000  00000000  000007d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000008  00000000  00000000  000009e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000004  00000000  00000000  000009f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .literal._Z41__static_initialization_and_destruction_0ii 0000003c  00000000  00000000  000009f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .literal._GLOBAL__sub_I_duty_max 00000008  00000000  00000000  00000a30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .literal._GLOBAL__sub_D_duty_max 00000008  00000000  00000000  00000a38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text         00000000  00000000  00000000  00000a40  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 42 .data         00000000  00000000  00000000  00000a40  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 43 .bss          00000000  00000000  00000000  00000a40  2**0
+                  ALLOC
+ 44 .text._ZL10read_untilPcci 00000019  00000000  00000000  00000a40  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text._ZL25past_http_header_positionPci 0000002d  00000000  00000000  00000a5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .rodata.str1.4 00000cb6  00000000  00000000  00000a8c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 47 .text._ZL21read_past_http_headerPcij 00000095  00000000  00000000  00001744  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text._ZL15initialise_wifiv 00000176  00000000  00000000  000017dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text._ZL18http_header_is_404Pci 00000018  00000000  00000000  00001954  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text._ZL22connect_to_http_serverv 000000fc  00000000  00000000  0000196c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text._ZL24switch_to_blinky_processv 00000044  00000000  00000000  00001a68  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text._ZL8ota_taskPv 00000b06  00000000  00000000  00001aac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text._ZL13event_handlerPvP14system_event_t 0000004a  00000000  00000000  000025b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text._ZL14wifi_connectedv 000000bc  00000000  00000000  00002600  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text._ZL16server_connectedv 000000cc  00000000  00000000  000026bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.app_main 0000001c  00000000  00000000  00002788  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000058  00000000  00000000  000027a4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .text._Z8decibelsIfET_S0_ 0000001d  00000000  00000000  000027fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 59 .text._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000022  00000000  00000000  0000281c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text._ZNSt6vectorIiSaIiEE19_M_range_initializeIPKiEEvT_S5_St20forward_iterator_tag 0000003c  00000000  00000000  00002840  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text._ZL16download_processv 0000009c  00000000  00000000  0000287c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000022  00000000  00000000  00002918  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000038  00000000  00000000  0000293c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000052  00000000  00000000  00002974  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_ESB_RS1_ 0000001c  00000000  00000000  000029c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000060  00000000  00000000  000029e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 000000ed  00000000  00000000  00002a44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 0000004e  00000000  00000000  00002b34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .rodata       00000010  00000000  00000000  00002b84  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 70 .text._Z12main_processv 00000b41  00000000  00000000  00002b94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 71 .rodata._Z12main_processv 00000020  00000000  00000000  000036d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 72 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 0000002e  00000000  00000000  000036f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 73 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 0000001e  00000000  00000000  00003728  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 74 .text._Z41__static_initialization_and_destruction_0ii 00000076  00000000  00000000  00003748  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 75 .text._GLOBAL__sub_I_duty_max 00000010  00000000  00000000  000037c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 76 .ctors        00000004  00000000  00000000  000037d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 77 .text._GLOBAL__sub_D_duty_max 00000010  00000000  00000000  000037d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 78 .dtors        00000004  00000000  00000000  000037e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 79 .rodata._ZZL15initialise_wifivE19__PRETTY_FUNCTION__ 00000017  00000000  00000000  000037e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 80 .rodata._ZZL8ota_taskPvE19__PRETTY_FUNCTION__ 00000015  00000000  00000000  00003800  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 81 .rodata.$_392 00000010  00000000  00000000  00003818  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 82 .rodata.$_391 00000008  00000000  00000000  00003828  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 83 .rodata.$_390 00000004  00000000  00000000  00003830  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 84 .rodata.$_389 00000010  00000000  00000000  00003834  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 85 .rodata.$_388 00000020  00000000  00000000  00003844  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 86 .bss._ZL16wifi_event_group 00000004  00000000  00000000  00003864  2**2
+                  ALLOC
+ 87 .data._ZL9socket_id 00000004  00000000  00000000  00003864  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 88 .bss._ZL18binary_file_length 00000004  00000000  00000000  00003868  2**2
+                  ALLOC
+ 89 .bss._ZL4text 00000401  00000000  00000000  00003868  2**2
+                  ALLOC
+ 90 .bss._ZL14ota_write_data 00000401  00000000  00000000  00003868  2**2
+                  ALLOC
+ 91 .bss.theta    00000004  00000000  00000000  00003868  2**2
+                  ALLOC
+ 92 .data.D_MICS  00000004  00000000  00000000  00003868  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 93 .bss.dc_rm    0000000c  00000000  00000000  0000386c  2**2
+                  ALLOC
+ 94 .data.current_led 00000004  00000000  00000000  0000386c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 95 .bss.counter  00000004  00000000  00000000  00003870  2**2
+                  ALLOC
+ 96 .bss.state_current 00000001  00000000  00000000  00003870  2**0
+                  ALLOC
+ 97 .bss._ZL4leds 0000000c  00000000  00000000  00003870  2**2
+                  ALLOC
+ 98 .bss.duty_max 00000018  00000000  00000000  00003870  2**2
+                  ALLOC
+ 99 .rodata._ZL8LED_BLUE 00000004  00000000  00000000  00003870  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+100 .rodata._ZL9LED_WHITE 00000004  00000000  00000000  00003874  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+101 .rodata._ZL7LED_RED 00000004  00000000  00000000  00003878  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+102 .rodata._ZStL19piecewise_construct 00000001  00000000  00000000  0000387c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+103 .debug_frame  000002e0  00000000  00000000  00003880  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+104 .debug_info   00016dcd  00000000  00000000  00003b60  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+105 .debug_abbrev 00000c37  00000000  00000000  0001a92d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+106 .debug_loc    0000318a  00000000  00000000  0001b564  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+107 .debug_aranges 00000108  00000000  00000000  0001e6ee  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+108 .debug_ranges 00000158  00000000  00000000  0001e7f6  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+109 .debug_line   00002ca2  00000000  00000000  0001e94e  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+110 .debug_str    00016fff  00000000  00000000  000215f0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+111 .comment      0000003c  00000000  00000000  000385ef  2**0
+                  CONTENTS, READONLY
+112 .xtensa.info  00000038  00000000  00000000  0003862b  2**0
+                  CONTENTS, READONLY
+113 .xt.lit       00000080  00000000  00000000  00038663  2**0
+                  CONTENTS, RELOC, READONLY
+114 .xt.lit._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000008  00000000  00000000  000386e3  2**0
+                  CONTENTS, RELOC, READONLY
+115 .xt.lit._Z8decibelsIfET_S0_ 00000008  00000000  00000000  000386eb  2**0
+                  CONTENTS, RELOC, READONLY
+116 .xt.lit._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000008  00000000  00000000  000386f3  2**0
+                  CONTENTS, RELOC, READONLY
+117 .xt.lit._ZNSt6vectorIiSaIiEE19_M_range_initializeIPKiEEvT_S5_St20forward_iterator_tag 00000008  00000000  00000000  000386fb  2**0
+                  CONTENTS, RELOC, READONLY
+118 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  00038703  2**0
+                  CONTENTS, RELOC, READONLY
+119 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0003870b  2**0
+                  CONTENTS, RELOC, READONLY
+120 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000008  00000000  00000000  00038713  2**0
+                  CONTENTS, RELOC, READONLY
+121 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000008  00000000  00000000  0003871b  2**0
+                  CONTENTS, RELOC, READONLY
+122 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000008  00000000  00000000  00038723  2**0
+                  CONTENTS, RELOC, READONLY
+123 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000008  00000000  00000000  0003872b  2**0
+                  CONTENTS, RELOC, READONLY
+124 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000008  00000000  00000000  00038733  2**0
+                  CONTENTS, RELOC, READONLY
+125 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000008  00000000  00000000  0003873b  2**0
+                  CONTENTS, RELOC, READONLY
+126 .xt.prop      00000e10  00000000  00000000  00038743  2**0
+                  CONTENTS, RELOC, READONLY
+127 .xt.prop._ZNSt6vectorIiSaIiEEC5ERKS1_ 0000000c  00000000  00000000  00039553  2**0
+                  CONTENTS, RELOC, READONLY
+128 .xt.prop._Z8decibelsIfET_S0_ 00000030  00000000  00000000  0003955f  2**0
+                  CONTENTS, RELOC, READONLY
+129 .xt.prop._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000030  00000000  00000000  0003958f  2**0
+                  CONTENTS, RELOC, READONLY
+130 .xt.prop._ZNSt6vectorIiSaIiEE19_M_range_initializeIPKiEEvT_S5_St20forward_iterator_tag 00000054  00000000  00000000  000395bf  2**0
+                  CONTENTS, RELOC, READONLY
+131 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000048  00000000  00000000  00039613  2**0
+                  CONTENTS, RELOC, READONLY
+132 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000078  00000000  00000000  0003965b  2**0
+                  CONTENTS, RELOC, READONLY
+133 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000078  00000000  00000000  000396d3  2**0
+                  CONTENTS, RELOC, READONLY
+134 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 000000b4  00000000  00000000  0003974b  2**0
+                  CONTENTS, RELOC, READONLY
+135 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000150  00000000  00000000  000397ff  2**0
+                  CONTENTS, RELOC, READONLY
+136 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000048  00000000  00000000  0003994f  2**0
+                  CONTENTS, RELOC, READONLY
+137 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000048  00000000  00000000  00039997  2**0
+                  CONTENTS, RELOC, READONLY
+138 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000048  00000000  00000000  000399df  2**0
+                  CONTENTS, RELOC, READONLY
+139 .xt.prop._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000054  00000000  00000000  00039a27  2**0
+                  CONTENTS, RELOC, READONLY
+140 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_ESB_RS1_ 00000054  00000000  00000000  00039a7b  2**0
+                  CONTENTS, RELOC, READONLY
+
+ota.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000014  00000000  00000000  0000004c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .group        00000014  00000000  00000000  00000060  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  3 .group        00000014  00000000  00000000  00000074  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  4 .group        00000014  00000000  00000000  00000088  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  5 .group        00000014  00000000  00000000  0000009c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  6 .group        00000014  00000000  00000000  000000b0  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  7 .group        00000014  00000000  00000000  000000c4  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  8 .group        00000014  00000000  00000000  000000d8  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  9 .group        00000014  00000000  00000000  000000ec  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 10 .group        00000014  00000000  00000000  00000100  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 11 .group        0000000c  00000000  00000000  00000114  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+ 12 .literal._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000010  00000000  00000000  00000120  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal._Z8decibelsIfET_S0_ 00000008  00000000  00000000  00000130  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000004  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0000013c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000004  00000000  00000000  00000144  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000008  00000000  00000000  00000148  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000004  00000000  00000000  00000150  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000014  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000010  00000000  00000000  00000168  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal._Z12main_processv 00000210  00000000  00000000  00000178  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000008  00000000  00000000  00000388  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000004  00000000  00000000  00000390  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal._Z41__static_initialization_and_destruction_0ii 0000003c  00000000  00000000  00000394  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal._GLOBAL__sub_I_duty_max 00000008  00000000  00000000  000003d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal._GLOBAL__sub_D_duty_max 00000008  00000000  00000000  000003d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text         00000000  00000000  00000000  000003e0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 28 .data         00000000  00000000  00000000  000003e0  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 29 .bss          00000000  00000000  00000000  000003e0  2**0
+                  ALLOC
+ 30 .text._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000058  00000000  00000000  000003e0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text._Z8decibelsIfET_S0_ 0000001d  00000000  00000000  00000438  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000022  00000000  00000000  00000458  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000022  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000038  00000000  00000000  000004a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 35 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000052  00000000  00000000  000004d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_ESB_RS1_ 0000001c  00000000  00000000  0000052c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 0000005f  00000000  00000000  00000548  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 000000ed  00000000  00000000  000005a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 0000004e  00000000  00000000  00000698  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .rodata.str1.4 000000b2  00000000  00000000  000006e8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .rodata       00000010  00000000  00000000  0000079c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 42 .text._Z12main_processv 00000b45  00000000  00000000  000007ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .rodata._Z12main_processv 00000020  00000000  00000000  000012f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 44 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 0000002e  00000000  00000000  00001314  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 0000001d  00000000  00000000  00001344  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text._Z41__static_initialization_and_destruction_0ii 0000008e  00000000  00000000  00001364  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text._GLOBAL__sub_I_duty_max 00000010  00000000  00000000  000013f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .ctors        00000004  00000000  00000000  00001404  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 49 .text._GLOBAL__sub_D_duty_max 00000010  00000000  00000000  00001408  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .dtors        00000004  00000000  00000000  00001418  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 51 .rodata.$_389 00000010  00000000  00000000  0000141c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 52 .rodata.$_388 00000020  00000000  00000000  0000142c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 53 .bss.theta    00000004  00000000  00000000  0000144c  2**2
+                  ALLOC
+ 54 .data.D_MICS  00000004  00000000  00000000  0000144c  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 55 .bss.dc_rm    0000000c  00000000  00000000  00001450  2**2
+                  ALLOC
+ 56 .data.current_led 00000004  00000000  00000000  00001450  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 57 .bss.counter  00000004  00000000  00000000  00001454  2**2
+                  ALLOC
+ 58 .bss.state_current 00000001  00000000  00000000  00001454  2**0
+                  ALLOC
+ 59 .bss._ZL4leds 0000000c  00000000  00000000  00001454  2**2
+                  ALLOC
+ 60 .bss.duty_max 00000018  00000000  00000000  00001454  2**2
+                  ALLOC
+ 61 .rodata._ZL8LED_BLUE 00000004  00000000  00000000  00001454  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 62 .rodata._ZL9LED_WHITE 00000004  00000000  00000000  00001458  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 63 .rodata._ZL7LED_RED 00000004  00000000  00000000  0000145c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 64 .rodata._ZStL19piecewise_construct 00000001  00000000  00000000  00001460  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 65 .debug_frame  00000190  00000000  00000000  00001464  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 66 .debug_info   00012f8b  00000000  00000000  000015f4  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 67 .debug_abbrev 00000b90  00000000  00000000  0001457f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 68 .debug_loc    00001fd0  00000000  00000000  0001510f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 69 .debug_aranges 00000098  00000000  00000000  000170df  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 70 .debug_ranges 00000088  00000000  00000000  00017177  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 71 .debug_line   00001b40  00000000  00000000  000171ff  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 72 .debug_str    000156bc  00000000  00000000  00018d3f  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 73 .comment      0000003c  00000000  00000000  0002e3fb  2**0
+                  CONTENTS, READONLY
+ 74 .xtensa.info  00000038  00000000  00000000  0002e437  2**0
+                  CONTENTS, READONLY
+ 75 .xt.lit._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000008  00000000  00000000  0002e46f  2**0
+                  CONTENTS, RELOC, READONLY
+ 76 .xt.lit._Z8decibelsIfET_S0_ 00000008  00000000  00000000  0002e477  2**0
+                  CONTENTS, RELOC, READONLY
+ 77 .xt.lit._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000008  00000000  00000000  0002e47f  2**0
+                  CONTENTS, RELOC, READONLY
+ 78 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0002e487  2**0
+                  CONTENTS, RELOC, READONLY
+ 79 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000008  00000000  00000000  0002e48f  2**0
+                  CONTENTS, RELOC, READONLY
+ 80 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000008  00000000  00000000  0002e497  2**0
+                  CONTENTS, RELOC, READONLY
+ 81 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 00000008  00000000  00000000  0002e49f  2**0
+                  CONTENTS, RELOC, READONLY
+ 82 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000008  00000000  00000000  0002e4a7  2**0
+                  CONTENTS, RELOC, READONLY
+ 83 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000008  00000000  00000000  0002e4af  2**0
+                  CONTENTS, RELOC, READONLY
+ 84 .xt.lit       00000020  00000000  00000000  0002e4b7  2**0
+                  CONTENTS, RELOC, READONLY
+ 85 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000008  00000000  00000000  0002e4d7  2**0
+                  CONTENTS, RELOC, READONLY
+ 86 .xt.lit._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000008  00000000  00000000  0002e4df  2**0
+                  CONTENTS, RELOC, READONLY
+ 87 .xt.prop._ZNSt6vectorIiSaIiEEC5ERKS1_ 0000000c  00000000  00000000  0002e4e7  2**0
+                  CONTENTS, RELOC, READONLY
+ 88 .xt.prop._Z8decibelsIfET_S0_ 00000030  00000000  00000000  0002e4f3  2**0
+                  CONTENTS, RELOC, READONLY
+ 89 .xt.prop._Z20map_to_unit_intervalIfET_S0_S0_S0_ 00000030  00000000  00000000  0002e523  2**0
+                  CONTENTS, RELOC, READONLY
+ 90 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE8_M_eraseEPSt13_Rb_tree_nodeIS2_E 00000048  00000000  00000000  0002e553  2**0
+                  CONTENTS, RELOC, READONLY
+ 91 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_insert_nodeEPSt18_Rb_tree_node_baseSA_PSt13_Rb_tree_nodeIS2_E 00000078  00000000  00000000  0002e59b  2**0
+                  CONTENTS, RELOC, READONLY
+ 92 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE10_M_insert_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_EPSt18_Rb_tree_node_baseSG_OT_RT0_ 00000078  00000000  00000000  0002e613  2**0
+                  CONTENTS, RELOC, READONLY
+ 93 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE24_M_get_insert_unique_posERS1_ 000000b4  00000000  00000000  0002e68b  2**0
+                  CONTENTS, RELOC, READONLY
+ 94 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE29_M_get_insert_hint_unique_posESt23_Rb_tree_const_iteratorIS2_ERS1_ 00000150  00000000  00000000  0002e73f  2**0
+                  CONTENTS, RELOC, READONLY
+ 95 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE22_M_emplace_hint_uniqueIJRKSt21piecewise_construct_tSt5tupleIJRS1_EESD_IJEEEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EDpOT_ 00000048  00000000  00000000  0002e88f  2**0
+                  CONTENTS, RELOC, READONLY
+ 96 .xt.prop      00000630  00000000  00000000  0002e8d7  2**0
+                  CONTENTS, RELOC, READONLY
+ 97 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE17_M_insert_unique_IRKS2_NS8_11_Alloc_nodeEEESt17_Rb_tree_iteratorIS2_ESt23_Rb_tree_const_iteratorIS2_EOT_RT0_ 00000048  00000000  00000000  0002ef07  2**0
+                  CONTENTS, RELOC, READONLY
+ 98 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE16_M_insert_uniqueIPKS2_EEvT_SC_ 00000048  00000000  00000000  0002ef4f  2**0
+                  CONTENTS, RELOC, READONLY
+ 99 .xt.prop._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000054  00000000  00000000  0002ef97  2**0
+                  CONTENTS, RELOC, READONLY
+100 .xt.prop._ZNSt8_Rb_treeIiSt4pairIKijESt10_Select1stIS2_ESt4lessIiESaIS2_EE14_M_lower_boundEPSt13_Rb_tree_nodeIS2_ESB_RS1_ 00000054  00000000  00000000  0002efeb  2**0
+                  CONTENTS, RELOC, READONLY

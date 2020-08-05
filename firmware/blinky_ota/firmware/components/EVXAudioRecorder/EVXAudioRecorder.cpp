@@ -17,6 +17,7 @@ void audio_read_task(void* pvParameters)
     
     while (1) {
         uint32_t bytes_read = i2s_read_bytes(I2S_NUM_0, &task_parameter->i2s_buffer[0], task_parameter->i2s_buffer_size, portMAX_DELAY);
+        //uint32_t bytes_read = i2s_read(I2S_NUM_0, &task_parameter->i2s_buffer[0], task_parameter->i2s_buffer_size, portMAX_DELAY);
         
         int32_t *buffer_input_i32 = (int32_t *)&task_parameter->i2s_buffer[0];
         uint32_t samples_read = bytes_read / task_parameter->frame_size;
