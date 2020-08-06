@@ -15,12 +15,12 @@ void cross_corr(float *a, float *b, float *f)
 
 
   for(int i=0; i<len_f; i++){
-    shift = i - len_b + 1;
+    shift = len_b - i - 1;
     f[i] = 0;
     for(int j=0; j<len_a; j++){
       // is index for b valid?
-      if(((j - shift) < len_b) && ((j - shift) >= 0)){
-        tmp_b = b[j - shift];
+      if(((j + shift) < len_b) && ((j + shift) >= 0)){
+        tmp_b = b[j + shift];
       }else{
         tmp_b = 0;
       }
