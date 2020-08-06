@@ -10,7 +10,7 @@
 
 #include <malloc.h>
 
-void cross_corr(float *a, float *b, float *f);
-void auto_corr(float *a, float *f);
+void cross_corr(float *a, int len_a, float *b, int len_b, float *f, int len_f);
+void auto_corr(float *a, int len_a, float *f, int len_f);
 
 #endif // __CORR_H__

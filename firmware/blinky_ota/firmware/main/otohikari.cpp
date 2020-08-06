@@ -45,7 +45,6 @@ DCRemoval dc_rm(DC_REMOVAL_ALPHA);
 
 // Distance between microphones [m]
 float D_MICS = 0.030;
-float theta = 0;
 
 void main_process()
 {
@@ -297,15 +296,16 @@ void main_process()
               // Two channels processing
               for (int i = 0 ; i < AUDIO_BUFFER_SIZE ; i++) {
                 // remove the mean using a notch filter
-                a[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 0]);
-                b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]);
+                a[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 0]) * 10;
+                b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]) * 10;
               }
               
               //if (theta >= 360){
               //  theta = 0;
               //}
               //theta++;
-              theta = doa_cross_corr(a, b, D_MICS, (float)SAMPLE_RATE);
+              float theta;
+              theta = doa_cross_corr(a, AUDIO_BUFFER_SIZE, b, AUDIO_BUFFER_SIZE, D_MICS, (float)SAMPLE_RATE);
 
               float duty_f_array[4] = {0, 0, 0, 0};
               //angle_to_led((float)theta*(2*M_PI)/360, duty_f_array);
@@ -321,8 +321,10 @@ void main_process()
 
               if (ENABLE_MONITOR and counter % 50 == 0)
               {
-                printf("theta=%d duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
-                    (int)theta,
+                printf("theta=%e a=%e b=%e duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
+                    (double)theta,
+                    (double)a[0],
+                    (double)b[0],
                     (double)duty_f_array[0],
                     (double)duty_f_array[1],
                     (double)duty_f_array[2],
@@ -343,7 +345,7 @@ void main_process()
 
             }
 
-            vTaskDelay(10 / portTICK_PERIOD_MS);
+            //vTaskDelay(10 / portTICK_PERIOD_MS);
             break;
         }
     }

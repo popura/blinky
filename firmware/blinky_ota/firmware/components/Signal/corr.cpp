@@ -5,13 +5,10 @@
 
 #include "corr.h"
 
-void cross_corr(float *a, float *b, float *f)
+void cross_corr(float *a, int len_a, float *b, int len_b, float *f, int len_f)
 {
-  int len_a = sizeof(a) / sizeof(a[0]);
-  int len_b = sizeof(b) / sizeof(b[0]);
-  int len_f = sizeof(f) / sizeof(f[0]);
   int shift = 0;
-  int tmp_b = 0;
+  float tmp_b = 0;
 
 
   for(int i=0; i<len_f; i++){
@@ -30,8 +27,8 @@ void cross_corr(float *a, float *b, float *f)
   return;
 }
 
-void auto_corr(float *a, float *f)
+void auto_corr(float *a, int len_a, float *f, int len_f)
 {
-  cross_corr(a, a, f);
+  cross_corr(a, len_a, a, len_a, f, len_f);
   return;
 }
