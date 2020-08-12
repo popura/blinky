@@ -28,6 +28,7 @@
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/ethernet/libethernet.a.sections_info
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/expat/libexpat.a.sections_info
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/fatfs/libfatfs.a.sections_info
+ /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/fft/libfft.a.sections_info
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/freemodbus/libfreemodbus.a.sections_info
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/freertos/libfreertos.a.sections_info
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/build/heap/libheap.a.sections_info

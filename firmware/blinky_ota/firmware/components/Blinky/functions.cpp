@@ -32,6 +32,10 @@ void angle_to_led(float theta, float led_duties[4])
 {
   float led_theta[4] = {M_PI/3, 2*M_PI/3, 4*M_PI/3, 5*M_PI/3};
 
+  if (std::isnan(theta)){
+    return;
+  }
+
   for (int i = 0; i < 4; i++){
     led_duties[i] = 0;
   }

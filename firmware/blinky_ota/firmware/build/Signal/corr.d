@@ -13,7 +13,10 @@ corr.o: \
  /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/_types.h \
  /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/_default_types.h \
  /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/lock.h \
- /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/malloc.h
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/malloc.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdint.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/fft/include/fft.h
 
 /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Signal/include/corr.h:
 
@@ -42,4 +45,10 @@ corr.o: \
 /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/lock.h:
 
 /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/malloc.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdint.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/fft/include/fft.h:
 /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Signal/./corr.cpp:

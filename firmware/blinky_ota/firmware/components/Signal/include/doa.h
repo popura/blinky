@@ -13,6 +13,6 @@
 #include <math.h>
 #include "corr.h"
 
-float doa_cross_corr(float *a, int len_a, float *b, int len_b, float interval, float fs);
+float doa_cross_corr(float tdoa, float interval);
 
 #endif // __DOA_H__

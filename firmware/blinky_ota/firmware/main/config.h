@@ -33,8 +33,7 @@ const auto DIP_SWITCH_3 = GPIO_NUM_33;
 
 // AUDIO
 const int SAMPLE_RATE (16000);
-//const size_t AUDIO_BUFFER_SIZE (64);
-const size_t AUDIO_BUFFER_SIZE (64);
+const size_t AUDIO_BUFFER_SIZE (1024);
 const int I2S_BCK (23);
 const int I2S_WS (14);
 const int I2S_DATA_IN (22);

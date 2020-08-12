@@ -179,6 +179,7 @@ main.o: \
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Blinky/include/ramp.h \
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Blinky/include/blinky_functions.h \
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Blinky/include/dip_switch.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/fft/include/fft.h \
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Signal/include/doa.h \
  /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Signal/include/corr.h \
  /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/malloc.h \
@@ -542,6 +543,8 @@ main.o: \
 /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Blinky/include/blinky_functions.h:
 
 /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Blinky/include/dip_switch.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/fft/include/fft.h:
 
 /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/blinky_ota/firmware/components/Signal/include/doa.h:
 

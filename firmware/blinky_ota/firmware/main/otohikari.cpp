@@ -1,6 +1,7 @@
 #include <vector>
 #include <map>
 #include <math.h>
+#include <float.h>
 #include "freertos/FreeRTOS.h"
 #include "freertos/task.h"
 
@@ -12,9 +13,14 @@
 #include "ramp.h"
 #include "blinky_functions.h"
 #include "dip_switch.h"
+extern "C" {
+  #include "fft.h"
+}
 #include "doa.h"
-
 #include "config.h"
+
+
+
 
 // Here we define for convenience an array of LEDs GPIO
 // and an enum to keep track of which is which
@@ -44,7 +50,7 @@ int current_led = LED_WHITE;
 DCRemoval dc_rm(DC_REMOVAL_ALPHA);
 
 // Distance between microphones [m]
-float D_MICS = 0.030;
+float D_MICS = 0.029;
 
 void main_process()
 {
@@ -299,13 +305,47 @@ void main_process()
                 a[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 0]) * 10;
                 b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]) * 10;
               }
+              float read_time = timer->measure();
+              if (ENABLE_MONITOR and counter % 10 == 0)
+              {
+                printf("a=%e b=%e\n",
+                    (double)a[0],
+                    (double)b[0]
+                );
+              }
               
-              //if (theta >= 360){
-              //  theta = 0;
-              //}
-              //theta++;
+              // calculate cross correlation
+              float *f;
+              int len_f = 2*AUDIO_BUFFER_SIZE - 1;
+              f = (float *)malloc(len_f * sizeof(float));
+
+              cross_corr_fft(a, AUDIO_BUFFER_SIZE, b, AUDIO_BUFFER_SIZE, f, len_f);
+              //cross_corr(a, AUDIO_BUFFER_SIZE, b, AUDIO_BUFFER_SIZE, f, len_f);
+              float cross_corr_time = timer->measure();
+
+              // estimate TDOA
+              int max_idx = 0;
+              float max_corr = -FLT_MAX;
+              float max_tdoa = D_MICS / 340.65;
+              int max_sample_diff = ceil(max_tdoa*SAMPLE_RATE);
+              for(int i=((len_f-1)/2)-max_sample_diff; i<=((len_f-1)/2)+max_sample_diff; i++)
+              {
+                if(max_corr < f[i]){
+                  max_corr = f[i];
+                  max_idx = i;
+                }
+              }
+              free(f);
+
+              float tdoa;
+              tdoa = ((float)max_idx - (AUDIO_BUFFER_SIZE-1)) / (float)SAMPLE_RATE;
+              float tdoa_time = timer->measure();
+
+
+              // DOA
               float theta;
-              theta = doa_cross_corr(a, AUDIO_BUFFER_SIZE, b, AUDIO_BUFFER_SIZE, D_MICS, (float)SAMPLE_RATE);
+              theta = doa_cross_corr(tdoa, D_MICS);
+              float doa_time = timer->measure();
 
               float duty_f_array[4] = {0, 0, 0, 0};
               //angle_to_led((float)theta*(2*M_PI)/360, duty_f_array);
@@ -318,18 +358,30 @@ void main_process()
                 duty = (uint32_t)(duty_f_array[i] * duty_max[led_indices[i]]);
                 ledC->updateDuty(led_indices[i], duty);
               }
+              float led_time = timer->measure();
 
-              if (ENABLE_MONITOR and counter % 50 == 0)
+              if (ENABLE_MONITOR and counter % 10 == 0)
               {
-                printf("theta=%e a=%e b=%e duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
+                printf("theta=%e isnan=%d a=%e b=%e max_idx=%d tdoa=%e duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
                     (double)theta,
+                    (int)std::isnan(theta),
                     (double)a[0],
                     (double)b[0],
+                    (int)max_idx,
+                    (double)tdoa,
                     (double)duty_f_array[0],
                     (double)duty_f_array[1],
                     (double)duty_f_array[2],
                     (double)duty_f_array[3],
                     (int)dip_switch.read());
+                printf(
+                    "read_time=%f cross_corr_time=%f tdoa_time=%f doa_time=%f led_time=%f\n",
+                    read_time,
+                    cross_corr_time,
+                    tdoa_time,
+                    doa_time,
+                    led_time
+                );
               }
               counter += 1;
 
@@ -345,7 +397,7 @@ void main_process()
 
             }
 
-            //vTaskDelay(10 / portTICK_PERIOD_MS);
+            vTaskDelay(10 / portTICK_PERIOD_MS);
             break;
         }
     }
