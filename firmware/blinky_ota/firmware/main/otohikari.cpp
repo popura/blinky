@@ -302,8 +302,8 @@ void main_process()
               // Two channels processing
               for (int i = 0 ; i < AUDIO_BUFFER_SIZE ; i++) {
                 // remove the mean using a notch filter
-                a[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 0]) * 10;
-                b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]) * 10;
+                b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 0]) * 10;
+                a[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]) * 10;
               }
               float read_time = timer->measure();
               
@@ -328,9 +328,13 @@ void main_process()
                   max_idx = i;
                 }
               }
+              
+              float max_sub_idx;
+              float peak[3] = {f[max_idx-1], f[max_idx], f[max_idx+1]};
+              max_sub_idx = parafit(max_idx, peak);
 
               float tdoa;
-              tdoa = ((float)max_idx - (AUDIO_BUFFER_SIZE-1)) / (float)SAMPLE_RATE;
+              tdoa = (max_sub_idx - (AUDIO_BUFFER_SIZE-1)) / (float)SAMPLE_RATE;
               float tdoa_time = timer->measure();
 
 
@@ -354,12 +358,12 @@ void main_process()
 
               if (ENABLE_MONITOR and counter % 50 == 0)
               {
-                printf("theta=%e isnan=%d a=%e b=%e max_idx=%d tdoa=%e duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
-                    (double)theta,
+                printf("theta=%2.2f isnan=%d a=%e b=%e max_idx=%f tdoa=%e duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
+                    (float)360*theta/(2*M_PI),
                     (int)std::isnan(theta),
                     (double)a[0],
                     (double)b[0],
-                    (int)max_idx,
+                    (float)max_sub_idx,
                     (double)tdoa,
                     (double)duty_f_array[0],
                     (double)duty_f_array[1],
@@ -376,21 +380,21 @@ void main_process()
                 );
               }
               counter += 1;
-              if (ENABLE_MONITOR and counter % 200 == 0)
-              {
-                printf("-----------------------------print signal-------------------------------------\n");
-                printf("i, signal a, signal b\n");
-                for (int i = 0; i < AUDIO_BUFFER_SIZE; i++){
-                  printf("%d, %e, %e\n", (int)i, (double)a[i], (double)b[i]);
-                }
-                printf("-----------------------------end signal-------------------------------------\n\n");
-                printf("-----------------------------print corr-------------------------------------\n");
-                printf("i, corr\n");
-                for (int i = 0; i < len_f; i++){
-                  printf("%d, %e\n", (int)i, (double)f[i]);
-                }
-                printf("-----------------------------end corr-------------------------------------\n\n");
-              }
+              //if (ENABLE_MONITOR and counter % 200 == 0)
+              //{
+              //  printf("-----------------------------print signal-------------------------------------\n");
+              //  printf("i, signal a, signal b\n");
+              //  for (int i = 0; i < AUDIO_BUFFER_SIZE; i++){
+              //    printf("%d, %e, %e\n", (int)i, (double)a[i], (double)b[i]);
+              //  }
+              //  printf("-----------------------------end signal-------------------------------------\n\n");
+              //  printf("-----------------------------print corr-------------------------------------\n");
+              //  printf("i, corr\n");
+              //  for (int i = 0; i < len_f; i++){
+              //    printf("%d, %e\n", (int)i, (double)f[i]);
+              //  }
+              //  printf("-----------------------------end corr-------------------------------------\n\n");
+              //}
 
               elapsed_time = timer->measure();
               if (elapsed_time > (float)AUDIO_BUFFER_SIZE/(float)SAMPLE_RATE*1000.0f)

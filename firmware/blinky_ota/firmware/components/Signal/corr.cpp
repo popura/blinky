@@ -83,3 +83,10 @@ void auto_corr(float *a, int len_a, float *f, int len_f)
   cross_corr(a, len_a, a, len_a, f, len_f);
   return;
 }
+
+float parafit(int x, float f[3])
+{
+  float x_sub;
+  x_sub = -0.5 * (f[2] - f[0]) / (f[2] - 2 * f[1] + f[0]);
+  return x_sub + (float)x;
+}
