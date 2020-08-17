@@ -60,9 +60,9 @@ void cross_corr_fft(float *a, int len_a, float *b, int len_b, float *f, int len_
   f_fft_plan->input[1] = a_fft_plan->output[1] * b_fft_plan->output[1];
   for (int i = 1; i < f_fft_plan->size / 2; i++){
     f_fft_plan->input[2*i] = (a_fft_plan->output[2*i] * b_fft_plan->output[2*i])
-                           + (a_fft_plan->output[2*i+1] + b_fft_plan->output[2*i+1]);
+                           + (a_fft_plan->output[2*i+1] * b_fft_plan->output[2*i+1]);
     f_fft_plan->input[2*i+1] = -1 * (a_fft_plan->output[2*i] * b_fft_plan->output[2*i+1])
-                             + (a_fft_plan->output[2*i+1] + b_fft_plan->output[2*i]);
+                             + (a_fft_plan->output[2*i+1] * b_fft_plan->output[2*i]);
   }
 
   fft_execute(f_fft_plan);

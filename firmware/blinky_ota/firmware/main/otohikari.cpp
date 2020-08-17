@@ -306,13 +306,6 @@ void main_process()
                 b[i] = dc_rm.process(audio_data[AUDIO_CHANNELS * i + 1]) * 10;
               }
               float read_time = timer->measure();
-              if (ENABLE_MONITOR and counter % 10 == 0)
-              {
-                printf("a=%e b=%e\n",
-                    (double)a[0],
-                    (double)b[0]
-                );
-              }
               
               // calculate cross correlation
               float *f;
@@ -335,7 +328,6 @@ void main_process()
                   max_idx = i;
                 }
               }
-              free(f);
 
               float tdoa;
               tdoa = ((float)max_idx - (AUDIO_BUFFER_SIZE-1)) / (float)SAMPLE_RATE;
@@ -352,7 +344,7 @@ void main_process()
               angle_to_led(theta, duty_f_array);
               
               // Set the duty cycle of each LED
-              int led_indices[4] = {LED_RED, LED_WHITE, LED_BLUE, LED_GREEN};
+              int led_indices[4] = {LED_WHITE, LED_BLUE, LED_GREEN, LED_RED};
               for (int i = 0; i < 4; i++){
                 uint32_t duty = 0;
                 duty = (uint32_t)(duty_f_array[i] * duty_max[led_indices[i]]);
@@ -360,7 +352,7 @@ void main_process()
               }
               float led_time = timer->measure();
 
-              if (ENABLE_MONITOR and counter % 10 == 0)
+              if (ENABLE_MONITOR and counter % 50 == 0)
               {
                 printf("theta=%e isnan=%d a=%e b=%e max_idx=%d tdoa=%e duty_f_red=%e duty_f_white=%e duty_f_blue=%e duty_f_green=%e dip_val=%d\n",
                     (double)theta,
@@ -384,6 +376,21 @@ void main_process()
                 );
               }
               counter += 1;
+              if (ENABLE_MONITOR and counter % 200 == 0)
+              {
+                printf("-----------------------------print signal-------------------------------------\n");
+                printf("i, signal a, signal b\n");
+                for (int i = 0; i < AUDIO_BUFFER_SIZE; i++){
+                  printf("%d, %e, %e\n", (int)i, (double)a[i], (double)b[i]);
+                }
+                printf("-----------------------------end signal-------------------------------------\n\n");
+                printf("-----------------------------print corr-------------------------------------\n");
+                printf("i, corr\n");
+                for (int i = 0; i < len_f; i++){
+                  printf("%d, %e\n", (int)i, (double)f[i]);
+                }
+                printf("-----------------------------end corr-------------------------------------\n\n");
+              }
 
               elapsed_time = timer->measure();
               if (elapsed_time > (float)AUDIO_BUFFER_SIZE/(float)SAMPLE_RATE*1000.0f)
@@ -395,9 +402,9 @@ void main_process()
                 );
               }
 
+              free(f);
+              vTaskDelay(10 / portTICK_PERIOD_MS);
             }
-
-            vTaskDelay(10 / portTICK_PERIOD_MS);
             break;
         }
     }
