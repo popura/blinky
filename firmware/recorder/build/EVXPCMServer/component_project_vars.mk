@@ -1,0 +1,8 @@
+# Automatically generated build file. Do not edit.
+COMPONENT_INCLUDES += $(PROJECT_PATH)/components/EVXPCMServer/include
+COMPONENT_LDFLAGS += -L$(BUILD_DIR_BASE)/EVXPCMServer -lEVXPCMServer
+COMPONENT_LINKER_DEPS += 
+COMPONENT_SUBMODULES += 
+COMPONENT_LIBRARIES += EVXPCMServer
+COMPONENT_LDFRAGMENTS += 
+component-EVXPCMServer-build: 

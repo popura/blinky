@@ -1,0 +1,252 @@
+src/security/security1.o: \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/src/security/security1.c \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdio.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/_ansi.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/newlib.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/config.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/ieeefp.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/features.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/cdefs.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/_default_types.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/reent.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/_ansi.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/_types.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/_types.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/lock.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/types.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/types.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/sched.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/stdio.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdlib.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/stdlib.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/alloca.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/string.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/string.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/esp_err.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdint.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/_intsup.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/platform_include/assert.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/recorder/build/include/sdkconfig.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/assert.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/log/include/esp_log.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/rom/ets_sys.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/soc/esp32/include/soc/soc.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/esp_assert.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/log/include/esp_log_internal.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/port/include/esp_mem.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/limits.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/port/include/aes_alt.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/hwcrypto/aes.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/esp_types.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/rom/aes.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_internal.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/platform_include/time.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/time.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/time.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md5.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/include/security/protocomm_security.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/include/security/protocomm_security1.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/session.pb-c.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/sec0.pb-c.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/constants.pb-c.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/sec1.pb-c.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/sec1.pb-c.h \
+ /mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/constants.pb-c.h
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdio.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/_ansi.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/newlib.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/config.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/ieeefp.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/features.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/xtensa/config/core-isa.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/cdefs.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/_default_types.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/reent.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/_ansi.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/_types.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/_types.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/lock.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/types.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/types.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/sched.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/stdio.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdlib.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/stdlib.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/alloca.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/string.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/string.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/esp_err.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/stdint.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/sys/_intsup.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/platform_include/assert.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/recorder/build/include/sdkconfig.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/assert.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/log/include/esp_log.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/rom/ets_sys.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/soc/esp32/include/soc/soc.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/esp_assert.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/log/include/esp_log_internal.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/port/include/esp_mem.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/limits.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/port/include/aes_alt.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/hwcrypto/aes.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/esp_types.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/esp32/include/rom/aes.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/entropy.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha512.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ctr_drbg.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/aes.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecp.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/error.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_internal.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ssl_ciphersuites.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/pk.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdsa.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/cipher.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_util.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crt.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/asn1.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/x509_crl.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/dhm.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/ecdh.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/platform_time.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/platform_include/time.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/time.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/newlib/include/machine/time.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/md5.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/include/security/protocomm_security.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/include/security/protocomm_security1.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/session.pb-c.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protobuf-c/protobuf-c/protobuf-c/protobuf-c.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/sec0.pb-c.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/constants.pb-c.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/sec1.pb-c.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/sec1.pb-c.h:
+
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/proto-c/constants.pb-c.h:
+/mnt/c/Users/popura/linux_home/research/onolab/esp/esp-idf/components/protocomm/src/security/security1.c:

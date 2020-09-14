@@ -1,0 +1,288 @@
+In archive /mnt/c/Users/popura/linux_home/research/onolab/blinky/firmware/recorder/build/main/libmain.a:
+
+cmd_wifi.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.wifi_cmd_sta_scan 00000020  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.event_handler 00000068  00000000  00000000  00000054  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.wifi_cmd_iperf 00000070  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.wifi_cmd_query 00000044  00000000  00000000  0000012c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.wifi_cmd_ap 0000005c  00000000  00000000  00000170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.wifi_cmd_scan 00000024  00000000  00000000  000001cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.wifi_cmd_sta 00000074  00000000  00000000  000001f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.initialise_wifi 00000064  00000000  00000000  00000264  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.register_wifi 0000012c  00000000  00000000  000002c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .text         00000000  00000000  00000000  000003f4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 10 .data         00000000  00000000  00000000  000003f4  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 11 .bss          00000000  00000000  00000000  000003f4  2**0
+                  ALLOC
+ 12 .rodata.str1.1 000007ab  00000000  00000000  000003f4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 13 .text.wifi_cmd_sta_scan 0000004a  00000000  00000000  00000ba0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .text.event_handler 00000144  00000000  00000000  00000bec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text.wifi_cmd_iperf 00000202  00000000  00000000  00000d30  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text.wifi_cmd_query 000000b4  00000000  00000000  00000f34  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text.wifi_cmd_ap 00000111  00000000  00000000  00000fe8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text.wifi_cmd_scan 0000005c  00000000  00000000  000010fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.wifi_cmd_sta 00000130  00000000  00000000  00001158  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .text.initialise_wifi 000000fe  00000000  00000000  00001288  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .rodata       00000050  00000000  00000000  00001388  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 22 .text.register_wifi 000001f8  00000000  00000000  000013d8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .rodata.__func__$7958 00000012  00000000  00000000  000015d0  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 24 .rodata.__func__$7972 00000012  00000000  00000000  000015e2  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 25 .rodata.__func__$7985 00000010  00000000  00000000  000015f4  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 26 .rodata.__func__$8016 0000000e  00000000  00000000  00001604  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .rodata.__func__$7945 00000010  00000000  00000000  00001612  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .bss.initialized$7943 00000001  00000000  00000000  00001622  2**0
+                  ALLOC
+ 29 .rodata.DISCONNECTED_BIT 00000004  00000000  00000000  00001624  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 30 .rodata.CONNECTED_BIT 00000004  00000000  00000000  00001628  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .bss.wifi_event_group 00000004  00000000  00000000  0000162c  2**2
+                  ALLOC
+ 32 .data.reconnect 00000001  00000000  00000000  0000162c  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 33 .bss.ap_args  0000000c  00000000  00000000  00001630  2**2
+                  ALLOC
+ 34 .bss.scan_args 00000008  00000000  00000000  00001630  2**2
+                  ALLOC
+ 35 .bss.sta_args 0000000c  00000000  00000000  00001630  2**2
+                  ALLOC
+ 36 .bss.iperf_args 00000020  00000000  00000000  00001630  2**2
+                  ALLOC
+ 37 .debug_frame  000000e8  00000000  00000000  00001630  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 38 .debug_info   00003c04  00000000  00000000  00001718  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 39 .debug_abbrev 0000042d  00000000  00000000  0000531c  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 40 .debug_loc    000005a7  00000000  00000000  00005749  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 41 .debug_aranges 00000060  00000000  00000000  00005cf0  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 42 .debug_ranges 00000128  00000000  00000000  00005d50  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 43 .debug_line   00000d48  00000000  00000000  00005e78  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 44 .debug_str    0000222e  00000000  00000000  00006bc0  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 45 .comment      0000003c  00000000  00000000  00008dee  2**0
+                  CONTENTS, READONLY
+ 46 .xtensa.info  00000038  00000000  00000000  00008e2a  2**0
+                  CONTENTS, READONLY
+ 47 .xt.lit       00000048  00000000  00000000  00008e62  2**0
+                  CONTENTS, RELOC, READONLY
+ 48 .xt.prop      0000063c  00000000  00000000  00008eaa  2**0
+                  CONTENTS, RELOC, READONLY
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .group        00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  1 .group        00000018  00000000  00000000  0000004c  2**2
+                  CONTENTS, READONLY, EXCLUDE, GROUP, LINK_ONCE_DISCARD
+  2 .literal._Z10audio_taskPfaiPv 0000006c  00000000  00000000  00000064  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal._ZNSt12_Vector_baseIsSaIsEE13_M_deallocateEPsj$isra$27 00000004  00000000  00000000  000000d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal._ZNSt6vectorIiSaIiEEC5ESt16initializer_listIiERKS0_ 00000010  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000010  00000000  00000000  000000e4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal._Z8app_initv 00000068  00000000  00000000  000000f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.app_main 00000008  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.startup._GLOBAL__sub_I_leds 00000078  00000000  00000000  00000164  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.exit._GLOBAL__sub_D_leds 00000024  00000000  00000000  000001dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .text         00000000  00000000  00000000  00000200  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 11 .data         00000000  00000000  00000000  00000200  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 12 .bss          00000000  00000000  00000000  00000200  2**0
+                  ALLOC
+ 13 .rodata.str1.1 00000059  00000000  00000000  00000200  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 14 .text._Z10audio_taskPfaiPv 0000021e  00000000  00000000  0000025c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .text._ZNSt12_Vector_baseIsSaIsEE13_M_deallocateEPsj$isra$27 0000000f  00000000  00000000  0000047c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text._ZNSt6vectorIiSaIiEEC2ESt16initializer_listIiERKS0_ 00000044  00000000  00000000  0000048c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .text._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000054  00000000  00000000  000004d0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .text._Z8app_initv 000000b0  00000000  00000000  00000524  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .text.app_main 00000015  00000000  00000000  000005d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .rodata       00000050  00000000  00000000  000005ec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, DATA
+ 21 .text.startup._GLOBAL__sub_I_leds 0000018a  00000000  00000000  0000063c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .ctors        00000004  00000000  00000000  000007c8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 23 .text.exit._GLOBAL__sub_D_leds 0000004a  00000000  00000000  000007cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .dtors        00000004  00000000  00000000  00000818  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 25 .bss._ZZ10audio_taskPfaiPvE6serial 00000002  00000000  00000000  0000081c  2**1
+                  ALLOC
+ 26 .rodata.$_371 00000010  00000000  00000000  0000081c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 27 .rodata.$_370 00000010  00000000  00000000  0000082c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 28 .rodata.$_369 00000010  00000000  00000000  0000083c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 29 .rodata.$_368 00000010  00000000  00000000  0000084c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 30 .rodata.$_367 00000010  00000000  00000000  0000085c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 31 .rodata.$_366 00000010  00000000  00000000  0000086c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 32 .rodata.$_365 00000010  00000000  00000000  0000087c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 33 .rodata.$_364 00000010  00000000  00000000  0000088c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 34 .rodata.$_363 0000000c  00000000  00000000  0000089c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 35 .rodata.$_362 00000010  00000000  00000000  000008a8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 36 .bss.duty_max 00000004  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 37 .bss.currentPos 00000004  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 38 .bss.pcmbuffer 0000000c  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 39 .bss.server   00000004  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 40 .bss.wifi     00000004  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 41 .bss.ledC     00000004  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 42 .bss.gpioC    00000004  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 43 .bss.duties   0000000c  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 44 .bss.led_pattern 0000000c  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 45 .bss.gpios    0000000c  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 46 .bss.leds     0000000c  00000000  00000000  000008b8  2**2
+                  ALLOC
+ 47 .debug_frame  000000d0  00000000  00000000  000008b8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 48 .debug_info   0000c09a  00000000  00000000  00000988  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 49 .debug_abbrev 00000979  00000000  00000000  0000ca22  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 50 .debug_loc    00000998  00000000  00000000  0000d39b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 51 .debug_aranges 00000058  00000000  00000000  0000dd33  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 52 .debug_ranges 00000218  00000000  00000000  0000dd8b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 53 .debug_line   00001333  00000000  00000000  0000dfa3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 54 .debug_str    0000fac0  00000000  00000000  0000f2d6  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 55 .comment      0000003c  00000000  00000000  0001ed96  2**0
+                  CONTENTS, READONLY
+ 56 .xtensa.info  00000038  00000000  00000000  0001edd2  2**0
+                  CONTENTS, READONLY
+ 57 .xt.lit       00000030  00000000  00000000  0001ee0a  2**0
+                  CONTENTS, RELOC, READONLY
+ 58 .xt.lit._ZNSt6vectorIiSaIiEEC5ESt16initializer_listIiERKS0_ 00000008  00000000  00000000  0001ee3a  2**0
+                  CONTENTS, RELOC, READONLY
+ 59 .xt.lit._ZNSt6vectorIiSaIiEEC5ERKS1_ 00000008  00000000  00000000  0001ee42  2**0
+                  CONTENTS, RELOC, READONLY
+ 60 .xt.prop      000003f0  00000000  00000000  0001ee4a  2**0
+                  CONTENTS, RELOC, READONLY
+ 61 .xt.prop._ZNSt6vectorIiSaIiEEC5ESt16initializer_listIiERKS0_ 0000000c  00000000  00000000  0001f23a  2**0
+                  CONTENTS, RELOC, READONLY
+ 62 .xt.prop._ZNSt6vectorIiSaIiEEC5ERKS1_ 0000000c  00000000  00000000  0001f246  2**0
+                  CONTENTS, RELOC, READONLY
+ 63 .xt.prop._ZNSt6vectorIiSaIiEEC2ESt16initializer_listIiERKS0_ 00000048  00000000  00000000  0001f252  2**0
+                  CONTENTS, RELOC, READONLY
+ 64 .xt.prop._ZNSt6vectorIiSaIiEEC2ERKS1_ 00000030  00000000  00000000  0001f29a  2**0
+                  CONTENTS, RELOC, READONLY
+
+iperf_tester.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal.iperf_tester_init 00000088  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.iperf_tester_main 00000084  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .text         00000000  00000000  00000000  00000140  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+  3 .data         00000000  00000000  00000000  00000140  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+  4 .bss          00000000  00000000  00000000  00000140  2**0
+                  ALLOC
+  5 .rodata.str1.1 0000038b  00000000  00000000  00000140  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  6 .text.iperf_tester_init 00000125  00000000  00000000  000004cc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .text.iperf_tester_main 000000cd  00000000  00000000  000005f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .rodata._ZZL18initialize_consolevE19__PRETTY_FUNCTION__ 0000001a  00000000  00000000  000006c1  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+  9 .rodata._ZZ17iperf_tester_initE19__PRETTY_FUNCTION__ 00000019  00000000  00000000  000006db  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 10 .debug_frame  00000040  00000000  00000000  000006f4  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 11 .debug_info   00000c3a  00000000  00000000  00000734  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 12 .debug_abbrev 00000212  00000000  00000000  0000136e  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 13 .debug_loc    000000ef  00000000  00000000  00001580  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 14 .debug_aranges 00000028  00000000  00000000  0000166f  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 15 .debug_ranges 00000018  00000000  00000000  00001697  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 16 .debug_line   000007ee  00000000  00000000  000016af  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 17 .debug_str    00000e8a  00000000  00000000  00001e9d  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 18 .comment      0000003c  00000000  00000000  00002d27  2**0
+                  CONTENTS, READONLY
+ 19 .xtensa.info  00000038  00000000  00000000  00002d63  2**0
+                  CONTENTS, READONLY
+ 20 .xt.lit       00000010  00000000  00000000  00002d9b  2**0
+                  CONTENTS, RELOC, READONLY
+ 21 .xt.prop      000000f0  00000000  00000000  00002dab  2**0
+                  CONTENTS, RELOC, READONLY
