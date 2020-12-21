@@ -18,6 +18,7 @@ extern "C" {
 }
 #include "doa.h"
 #include "config.h"
+#include "tiny_dnn/tiny_dnn.h"
 
 
 
